@@ -3,21 +3,21 @@ Web para presentar los distintos servicios que ofrece nuestra floristería. No e
 Debería disponer de algún método para contactar directamente por si se necesita de nuestros servicios.
 
 *Categorías:*
-- Ramos
-- Centros
-- Plantas
-- Nacimientos
-- Funerarios
-- Bodas
-- Comuniones
-- Lapidas (¿Funerarios?)
+- [ ] Ramos
+- [ ] Centros
+- [ ] Plantas
+- [ ] Nacimientos
+- [ ] Funerarios
+- [ ] Bodas
+- [ ] Comuniones
+- [ ] Lapidas (¿Funerarios?)
 
 *Ideas*:
-- Las paginas de categorías (Ramos, Eventos funerarios, Centros, Bodas...) podrían ser galerías de imágenes de los distintos trabajos que se han hecho.
-- Envíos: Pagina de solicitud de envíos con nuestro numero de teléfono y una lista de preguntas que van a contestar. Nombre, destinatario, día y hora, presupuesto, descripción detallada o a gusto de nuestros profesionales.
-- Añadir una descripción o enunciado dinámico en las categorías. Para anunciar cosas o añadir avisos para las secciones.
-- Idiomas: Castellano, Valenciano, Inglés, Frances, Alemán
-- Pie de pagina con horarios, dirección, información de contacto, condiciones de compra, y aviso legal.
+- [ ] Las paginas de categorías (Ramos, Eventos funerarios, Centros, Bodas...) podrían ser galerías de imágenes de los distintos trabajos que se han hecho.
+- [ ] Envíos: Pagina de solicitud de envíos con nuestro numero de teléfono y una lista de preguntas que van a contestar. Nombre, destinatario, día y hora, presupuesto, descripción detallada o a gusto de nuestros profesionales.
+- [ ] Añadir una descripción o enunciado dinámico en las categorías. Para anunciar cosas o añadir avisos para las secciones.
+- [ ] Idiomas: Castellano, Valenciano, Inglés, Frances, Alemán
+- [ ] Pie de pagina con horarios, dirección, información de contacto, condiciones de compra, y aviso legal.
 
 *Extra*:
 - Añadir una descripción o enunciado dinámico en las categorías. Para anunciar cosas o añadir avisos para las secciones.
