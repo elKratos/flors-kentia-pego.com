@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Descripción e ideas.md",
+                "file": "General.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Descripción e ideas"
+              "title": "General"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Descripción e ideas.md",
+                "file": "General.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Descripción e ideas"
+              "title": "Backlinks for General"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Descripción e ideas.md",
+                "file": "General.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Descripción e ideas"
+              "title": "Outgoing links from General"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Descripción e ideas.md",
+                "file": "General.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Descripción e ideas"
+              "title": "Outline of General"
             }
           }
         ]
@@ -171,9 +171,10 @@
   "active": "876cb222a1552b9d",
   "lastOpenFiles": [
     "Condiciones de envío.md",
+    "().md",
     "General.md",
-    "Descripción e ideas.md",
     "Aviso legal.md",
+    "Descripción e ideas.md",
     "Welcome.md"
   ]
 }
