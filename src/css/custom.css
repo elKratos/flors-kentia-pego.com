@@ -1,0 +1,200 @@
+/*
+Fondo principal: #F8F6F2 (Blanco roto)
+Encabezados o botones destacados: #5A3E2B (Verde bosque)
+Textos principales: #5A3E2B (Marrón chocolate)
+Detalles sutiles o fondos secundarios: #A3B18A (Verde salvia)
+Elementos decorativos o bordes: #8B5E3C (Marrón tierra)
+*/
+html {
+    color: #FFF;
+    background-color: #F8F6F2;
+
+}
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    flex: 1;
+}
+
+
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #5A3E2B;
+}
+
+.logo {
+    justify-content: space-between;
+    width: 20%;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.logo img {
+    width: 15%;
+    min-width: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.cta-button {
+    background-color: #ff6600;
+    color: #FFF;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #ff4500;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #5A3E2B;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer > nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+footer > nav ul li {
+    display: inline;
+}
+
+footer > nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-links a {
+    color: #FFF;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/*Carrusel*/
+
+.carousel-container {
+    width: 80%;
+    height: 400px;
+    max-width: 800px;
+    margin: 40px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.3); /* Fondo gris semitransparente */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+    width: 100%;  /* Asegura que todas tengan el mismo ancho */
+    height: 100%; /* Asegura que todas tengan la misma altura */
+    object-fit: contain; /* Mantiene la proporción sin recortar */
+    background-color: rgba(128, 128, 128, 0.3); /* Gris semitransparente */
+}
+
+.btn {
+    width: 40px; /* Tamaño fijo para que sean circulares */
+    height: 40px; /* Igual al ancho para que sea un círculo perfecto */
+    line-height: 40px; /* Centra el contenido */
+    text-align: center; /* Centra el ícono dentro del botón */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%; /* Hace que sea completamente circular */
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*Boton whatsapp*/
+
+.whatsapp-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366; /* Verde WhatsApp */
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-btn:hover {
+    background-color: #1EBE5D;
+}

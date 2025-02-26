@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="src/css/custom.css">
+    
+    <link rel="icon" type="image/x-icon" href="src/images/logo.png">
+    <title>Base web</title>
+</head>
+<body>
+    <div id="header"></div>
+
+    <main>
+        
+        <div class="carousel-container">
+            <div class="carousel">
+                <img src="src/images/carrusel/carr1.jpg" alt="Imagen 1">
+                <img src="src/images/carrusel/carr2.jpg" alt="Imagen 2">
+                <img src="src/images/carrusel/carr3.jpg" alt="Imagen 3">
+            </div>
+            <button class="btn prev" onclick="moveSlide(-1)">❮</button>
+            <button class="btn next" onclick="moveSlide(1)">❯</button>
+        </div>
+
+    </main>
+
+    <div id="footer"></div>
+</body>
+<script src="src/scripts/header.js"></script>
+</html>
