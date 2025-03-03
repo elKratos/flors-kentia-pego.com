@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Descripción e ideas"
             }
+          },
+          {
+            "id": "5f9c33ac95ad7b7e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,7 +181,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61eec4b2825938b3",
+  "active": "5f9c33ac95ad7b7e",
   "lastOpenFiles": [
     "Untitled.canvas",
     "2025-02-25.md",
